@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.activiti:activiti-bpmn-layout:5.17.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-bpmn-layout/5.17.0/bf2faf49eb322f08192dec8ac6f4380f08c8d7cf/activiti-bpmn-layout-5.17.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-bpmn-layout/5.17.0/38d9ec640ab22b8ca47aed564d0001c25b28aa19/activiti-bpmn-layout-5.17.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

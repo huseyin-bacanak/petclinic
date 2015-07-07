@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.activiti:activiti-rest:5.17.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-rest/5.17.0/fc41d2a944d5347cf52a5956129460b97d768075/activiti-rest-5.17.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.activiti/activiti-rest/5.17.0/d842ee3d702a35d91cc9afa79c1af5492f72d429/activiti-rest-5.17.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
