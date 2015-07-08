@@ -2,13 +2,33 @@
 <JDepend>
     <Packages>
 
-        <Package name="demo">
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.joda.time">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.beans.support">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="org.springframework.core.style">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="petclinic.model">
             <Stats>
-                <TotalClasses>1</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
+                <TotalClasses>10</TotalClasses>
+                <ConcreteClasses>10</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
                 <Ca>0</Ca>
-                <Ce>1</Ce>
+                <Ce>5</Ce>
                 <A>0</A>
                 <I>1</I>
                 <D>0</D>
@@ -19,21 +39,48 @@
             </AbstractClasses>
 
             <ConcreteClasses>
-                <Class sourceFile="Main.java">
-                    demo.Main
+                <Class sourceFile="BaseEntity.java">
+                    petclinic.model.BaseEntity
+                </Class>
+                <Class sourceFile="NamedEntity.java">
+                    petclinic.model.NamedEntity
+                </Class>
+                <Class sourceFile="Owner.java">
+                    petclinic.model.Owner
+                </Class>
+                <Class sourceFile="Person.java">
+                    petclinic.model.Person
+                </Class>
+                <Class sourceFile="Pet.java">
+                    petclinic.model.Pet
+                </Class>
+                <Class sourceFile="PetType.java">
+                    petclinic.model.PetType
+                </Class>
+                <Class sourceFile="Specialty.java">
+                    petclinic.model.Specialty
+                </Class>
+                <Class sourceFile="Vet.java">
+                    petclinic.model.Vet
+                </Class>
+                <Class sourceFile="Vets.java">
+                    petclinic.model.Vets
+                </Class>
+                <Class sourceFile="Visit.java">
+                    petclinic.model.Visit
                 </Class>
             </ConcreteClasses>
 
             <DependsUpon>
                 <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>org.joda.time</Package>
+                <Package>org.springframework.beans.support</Package>
+                <Package>org.springframework.core.style</Package>
             </DependsUpon>
 
             <UsedBy>
             </UsedBy>
-        </Package>
-
-        <Package name="java.lang">
-            <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
     </Packages>
 

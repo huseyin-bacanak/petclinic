@@ -14,6 +14,7 @@ pmd {
             "java-junit", "java-migrating", "java-strings", "java-sunsecure", "java-unusedcode",
             "java-logging-java"
     ]
+    consoleOutput=true
 }
 pmdMain {
     reports {
