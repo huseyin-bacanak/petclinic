@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Simple domain object representing a list of veterinarians.
  * Mostly here to be used for 'vets'
- * {@link org.springframework.web.servlet.view.xml.MarshallingView}.
+ *  {@link org.springframework.web.servlet.view.xml.MarshallingView}.
  */
 
 @XmlRootElement
